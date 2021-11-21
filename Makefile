@@ -3,6 +3,9 @@ SHELL := /bin/bash
 
 all:
 
+build:
+	go build ./cmd/...
+
 test:
 	go test ./...
 
